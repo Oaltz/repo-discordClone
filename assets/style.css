@@ -1,0 +1,983 @@
+@font-face {
+    font-family: Open sans;
+    src: url(/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+    font-family: Luckiest Guy;
+    src: url(/assets/fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf);
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2560px){
+
+    main {
+        padding: 1rem 30rem;
+    }
+
+    h1 {
+        font-size: 600%;
+        word-wrap: break-word;
+        font-weight: lighter;
+        font-family: Luckiest Guy;
+    }
+
+    header {
+        background: url(images/Header\ Background.png) 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .content-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: white;
+        padding: 10rem 20rem;
+    }
+
+    .content-header p {
+        font-size: x-large;
+        text-align: center;
+        font-family: Open sans;
+        padding: 2rem 10em;
+    }
+
+    #btnBaixar {
+        margin: 0.5em;
+        padding: 1rem;
+        border-radius: 28px;
+        font-family: Open sans ;
+        font-size: x-large;
+        border: none;
+        color: #23272A;
+        background: #FFF;
+    }
+    
+    #btnAbrir {
+        margin: 0.5em;
+        padding: 1rem;
+        border-radius: 28px;
+        font-family: Open sans;
+        font-size: x-large;
+        border: none;
+        color: white;
+        background: #23272A;
+    }
+
+    .section-1 {
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-1 img {
+        width: 100%;
+    }
+
+    .section-1 h2 {
+        display: flex;
+        font-size: 300%;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-1 p {
+        display: flex;
+        font-size: 150%;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+    .section-2 {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-2 img {
+        width: 100%;
+    }
+    
+    .section-2 h2 {
+        display: flex;
+        font-size: 300%;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-2 p {
+        display: flex;
+        font-size: 150%;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+    
+    .section-3 {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-3 img {
+        width: 100%;
+    }
+    
+    .section-3 h2 {
+        display: flex;
+        font-size: 300%;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-3 p {
+        display: flex;
+        font-size: 150%;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+    .last-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last-content-section {
+        margin-top: 4rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .font-section {
+        font-size: 300%;
+        word-wrap: break-word;
+        font-family: Luckiest guy;
+        text-align: center;
+    }
+
+    .last-section p {
+        text-align: center;
+        font-size: 150%;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    main {
+        padding: 1rem 10rem;
+    }
+
+    h1 {
+        font-size: 300%;
+        word-wrap: break-word;
+        font-weight: lighter;
+        font-family: Luckiest Guy;
+    }
+
+    header {
+        background: url(images/Header\ Background.png) 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .content-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: white;
+        padding: 5rem;
+    }
+
+    .content-header p {
+        text-align: center;
+        font-family: Open sans;
+        padding: 0rem 10em;
+    }
+
+    #btnBaixar {
+        margin: 0.5em;
+        padding: 1rem;
+        border-radius: 28px;
+        font-family: Open sans ;
+        border: none;
+        color: #23272A;
+        background: #FFF;
+    }
+    
+    #btnAbrir {
+        margin: 0.5em;
+        padding: 1rem;
+        border-radius: 28px;
+        font-family: Open sans;
+        border: none;
+        color: white;
+        background: #23272A;
+    }
+
+    .section-1 {
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-1 h2 {
+        display: flex;
+        font-size: xx-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-1 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+    .section-2 {
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .section-2 h2 {
+        display: flex;
+        font-size: xx-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-2 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+    
+    .section-3 {
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .section-3 h2 {
+        display: flex;
+        font-size: xx-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-3 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+    .last-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last-content-section {
+        margin-top: 4rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .font-section {
+        font-size: 280%;
+        word-wrap: break-word;
+        font-family: Luckiest guy;
+        text-align: center;
+    }
+
+    .last-section p {
+        text-align: center;
+        font-size: small;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    main {
+        padding: 1rem 5rem;
+    }
+
+    h1 {
+        font-size: 300%;
+        word-wrap: break-word;
+        font-weight: lighter;
+        font-family: Luckiest Guy;
+    }
+
+    header {
+        background: url(images/Header\ Background.png) 50% 50%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .content-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: white;
+        padding: 2rem;
+    }
+
+    .content-header p {
+        text-align: center;
+        font-family: Open sans;
+        padding: 0rem 5em;
+    }
+
+    #btnBaixar {
+        margin: 0.5em;
+        padding: 1rem;
+        border-radius: 28px;
+        font-family: Open sans ;
+        border: none;
+        color: #23272A;
+        background: #FFF;
+    }
+    
+    #btnAbrir {
+        margin: 0.5em;
+        padding: 1rem;
+        border-radius: 28px;
+        font-family: Open sans;
+        border: none;
+        color: white;
+        background: #23272A;
+    }
+
+    .section-1 {
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-1 h2 {
+        display: flex;
+        font-size: x-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-1 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+    .section-2 {
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .section-2 h2 {
+        display: flex;
+        font-size: x-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-2 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+    
+    .section-3 {
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .section-3 h2 {
+        display: flex;
+        font-size: x-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-3 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+    .last-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last-content-section {
+        margin-top: 4rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .font-section {
+        font-size: 280%;
+        word-wrap: break-word;
+        font-family: Luckiest guy;
+        text-align: center;
+    }
+
+    .last-section p {
+        text-align: center;
+        font-size: small;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        padding: 1rem 1rem;
+    }
+
+    h1 {
+        font-size: 200%;
+        padding-right: 4rem;
+        word-wrap: break-word;
+        font-weight: lighter;
+        font-family: Luckiest Guy;
+    }
+
+    header {
+        background: url(images/Header\ Background-mobile.png);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .content-header {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 2rem;
+    }
+
+    .content-header p {
+        font-family: Open sans;
+        padding: 0rem 1em;
+    }
+
+    #btnBaixar {
+        margin: 0.5em;
+        padding: 1rem;
+        border-radius: 28px;
+        font-family: Open sans ;
+        border: none;
+        color: #23272A;
+        background: #FFF;
+    }
+    
+    #btnAbrir {
+        margin: 0.5em;
+        padding: 1rem;
+        border-radius: 28px;
+        font-family: Open sans;
+        border: none;
+        color: white;
+        background: #23272A;
+    }
+
+    .section-1 {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-1 h2 {
+        display: flex;
+        font-size: x-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-1 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+    .section-2 {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .section-2 h2 {
+        display: flex;
+        font-size: x-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-2 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+    
+    .section-3 {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .section-3 h2 {
+        display: flex;
+        font-size: x-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-3 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+    .last-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last-content-section {
+        margin-top: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .font-section {
+        font-size: 180%;
+        word-wrap: break-word;
+        font-family: Luckiest guy;
+    }
+
+    .last-section p {
+        font-size: small;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+    
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        padding: 1rem 1rem;
+    }
+
+    h1 {
+        font-size: 200%;
+        padding-right: 4rem;
+        word-wrap: break-word;
+        font-weight: lighter;
+        font-family: Luckiest Guy;
+    }
+
+    header {
+        background: url(images/Header\ Background-mobile.png);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .content-header {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 2rem;
+    }
+
+    .content-header p {
+        font-family: Open sans;
+        padding: 0rem 1em;
+    }
+
+    #btnBaixar {
+        margin: 0.5em;
+        padding: 1rem;
+        border-radius: 28px;
+        font-family: Open sans ;
+        border: none;
+        color: #23272A;
+        background: #FFF;
+    }
+    
+    #btnAbrir {
+        margin: 0.5em;
+        padding: 1rem;
+        border-radius: 28px;
+        font-family: Open sans;
+        border: none;
+        color: white;
+        background: #23272A;
+    }
+
+    .section-1 {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-1 img{
+        width: 80%;
+    }
+
+    .section-1 h2 {
+        display: flex;
+        font-size: x-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-1 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+    .section-2 {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-2 img{
+        width: 80%;
+    }
+    
+    .section-2 h2 {
+        display: flex;
+        font-size: x-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-2 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+    
+    .section-3 {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-3 img{
+        width: 80%;
+    }
+    
+    .section-3 h2 {
+        display: flex;
+        font-size: x-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-3 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+    .last-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last-content-section {
+        margin-top: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .font-section {
+        font-size: 180%;
+        word-wrap: break-word;
+        font-family: Luckiest guy;
+    }
+
+    .last-section p {
+        font-size: small;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        padding: 1rem 1rem;
+    }
+
+    h1 {
+        font-size: 200%;
+        padding-right: 4rem;
+        word-wrap: break-word;
+        font-weight: lighter;
+        font-family: Luckiest Guy;
+    }
+
+    header {
+        background: url(images/Header\ Background-mobile.png);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .content-header {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 2rem;
+    }
+
+    .content-header p {
+        font-family: Open sans;
+        padding: 0rem 1em;
+    }
+
+    #btnBaixar {
+        margin: 0.5em;
+        padding: 1rem;
+        border-radius: 28px;
+        font-family: Open sans ;
+        border: none;
+        color: #23272A;
+        background: #FFF;
+    }
+    
+    #btnAbrir {
+        margin: 0.5em;
+        padding: 1rem;
+        border-radius: 28px;
+        font-family: Open sans;
+        border: none;
+        color: white;
+        background: #23272A;
+    }
+
+    .section-1 {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-1 img{
+        width: 80%;
+    }
+
+    .section-1 h2 {
+        display: flex;
+        font-size: x-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-1 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+    .section-2 {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-2 img{
+        width: 80%;
+    }
+    
+    .section-2 h2 {
+        display: flex;
+        font-size: x-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-2 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+    
+    .section-3 {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-3 img{
+        width: 80%;
+    }
+    
+    .section-3 h2 {
+        display: flex;
+        font-size: x-large;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-family: Open sans;
+    }
+    
+    .section-3 p {
+        display: flex;
+        font-size: smaller;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+
+    .last-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last-content-section {
+        margin-top: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .font-section {
+        font-size: 180%;
+        word-wrap: break-word;
+        font-family: Luckiest guy;
+    }
+
+    .last-section p {
+        font-size: small;
+        word-wrap: break-word;
+        font-family: Open sans ;
+    }
+    
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.last-section img{
+    width: 80%;
+}
+
+footer{
+    display: flex;
+    background-color: #23272A;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
